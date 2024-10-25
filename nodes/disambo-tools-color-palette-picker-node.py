@@ -63,7 +63,7 @@ class ColorPalettePickerNode:
                 "output_choices": (
                     ["plain_english_colors", "rgb_colors", "hex_colors", "xkcd_colors", "design_colors", "common_colors", "color_types", "color_families"],
                     {
-                        "default": "plain_english_colors",
+                        "default": "xkcd_colors",
                         "tooltip": "Select which color output to return",
                     },
                 ),

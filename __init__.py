@@ -15,6 +15,8 @@ node_list = [
     "disambo-tools-color-palette-extractor-node",
     "disambo-tools-color-palette-picker-node",
     "disambo-tools-color-palette-transfer-node",
+    "disambo-tools-resharpen-details-node",
+    "disambo-tools-model-loader-node",
 ]
 
 NODE_CLASS_MAPPINGS = {}

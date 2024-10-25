@@ -58,6 +58,7 @@ class GeminiFlashNode:
                 "preset_prompt": (["无指令",  # 添加空值选项
                                    "文本指令-提示词增强",
                                    "文本指令-文本打标",
+                                   "文本指令-文本去色",
                                    "文本指令-翻译成中文",
                                    "文本指令-翻译成英文",
                                    "图片指令-图片描述",
@@ -112,6 +113,7 @@ class GeminiFlashNode:
             "无指令": "",  # 空值
             "文本指令-提示词增强": "Generate a single, creative description, do not provide multiple options, just write a single descriptive paragraph, if the original text is in Chinese, translate it into English first",
             "文本指令-文本打标": "Transform the text into tags, separated by commas, don’t use duplicate tags",
+            "文本指令-文本去色": "Remove words describing the color",
             "文本指令-翻译成中文": "Translate this text into Chinese",
             "文本指令-翻译成英文": "Translate this text into English",
             "图片指令-图片描述": "Describe the image in detail and accurately",
